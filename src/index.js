@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import { render } from 'react-dom'
+import Welcome from './welcome.js'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import { I18nProvider } from '@lingui/react'
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const locale = "es" // or whatever you need it to be
+const catalog = require(`./locales/${locale}/messages.js`)
+const App = () => (
+  <I18nProvider language={locale} catalogs={catalog}>
+    <Welcome />
+  </I18nProvider>
+)
+
+render(<App />, document.getElementById('app'))

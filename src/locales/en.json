@@ -1,0 +1,5 @@
+{
+  "welcome": "Welcome, {name}",
+  "today": "Today is {date}.",
+  "thatsAll": "That's all for today!"
+}
