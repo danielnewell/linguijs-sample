@@ -1,5 +1,5 @@
 {
-  "welcome": "Bienvenido, {name}",
-  "today": "Hoy es el {date}.",
-  "thatsAll": "¡Y eso es todo!"
+  "thatsAll": "¡Eso es todo por hoy!",
+  "today": "Hoy es {date}.",
+  "welcome": "¡Bienvenido!, {name}"
 }
