@@ -8,6 +8,6 @@
   },
 
   "download": {
-    "files": "src/locales/${lang}.json",
+    "files": "src/locales/${lang}.json"
   }
 }
