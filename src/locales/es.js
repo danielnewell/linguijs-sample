@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"thatsAll":"\xA1Eso es todo por hoy!","today":["Hoy es ",["date"],"."],"welcome":"\xA1Bienvenido!"}};

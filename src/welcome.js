@@ -1,8 +1,7 @@
 import React from 'react'
 import { Trans } from '@lingui/macro';
 
-const Welcome = ({ user }) => {
-  const { name } = user
+const Welcome = ({name}) => {
   const date = new Date().toString() // Date will not be translated, you can use more advanced techniques to do so
    return (
      <div>
